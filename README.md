@@ -7,7 +7,6 @@ This repo provides the information of how to set up multiple IdPs, integrate wit
 ![](./docs/img/nginx-oidc-workflow.png)
 
 - [Getting Started](#🏠-getting-started)
-- [Troubleshooting](#🔧-troubleshooting)
 - [References](#📚-references)
 
 <br>
