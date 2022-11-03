@@ -1,6 +1,6 @@
-# How To Locally Test Containerized NGINX Plus OIDC for Amazon Cognito Integration
+# How To Locally Test Containerized NGINX Plus OIDC for multiple IdPs Integration (TBD)
 
-Take the following steps to run NGINX Plus in a Docker container and test OIDC for Amazon Cognito integration.
+Take the following steps to run NGINX Plus in a Docker container and test OIDC for multiple IdPs integration.
 
 > Note: You could remotely test in your remote machine if you copy entire files there.
 
@@ -48,9 +48,9 @@ Take the following steps to run NGINX Plus in a Docker container and test OIDC f
   Enter your name and password which are registered in Amazon Cognito.
 
   ![](./img/signIn-cognito.png)
-  
-  When you login first time you will be prompted to update your password which you can update by entering below fields and clicking 'Send' button. 
-  
+
+  When you login first time you will be prompted to update your password which you can update by entering below fields and clicking 'Send' button.
+
   ![](./img/changePassword-cognito.png)
 
   You will see the following screen once you are successfully signed-in.
