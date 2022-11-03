@@ -1,10 +1,6 @@
 # nginx-oidc-multi-idps
 
-NGINX Plus OIDC w/ Multiple Identity Providers Integration
-
-# nginx-oidc-amazon-cognito
-
-Reference implementation of NGINX Plus as relying party for OpenID Connect authentication w/ multiple IdPs.
+Reference implementation of NGINX Plus as relying party for OpenID Connect authentication to support multiple IdPs per cluster.
 
 This repo provides the information of how to set up multiple IdPs, integrate with NGINX Plus, and locally test using a containerized NGINX Plus app, a frontend OIDC simulation tool, and a NGINX Dev Portal.
 
@@ -39,6 +35,6 @@ This repo provides the information of how to set up multiple IdPs, integrate wit
 
 - [NGINX OIDC Core v1.0: Forked from NGINX GitHub](https://github.com/nginx-openid-connect/nginx-oidc-core-v1)
 - [NGINX OIDC Core v2.0: Forked from NGINX GitHub](https://github.com/nginx-openid-connect/nginx-oidc-core)
-- [NGINX Plus: Single Sign-On With Amazon Cognito](https://docs.nginx.com/nginx/deployment-guides/single-sign-on/cognito/)
+- [NGINX Plus: Single Sign-On](https://docs.nginx.com/nginx/deployment-guides/single-sign-on)
 - [NGINX Management Suite](https://docs.nginx.com/nginx-management-suite/)
 - [NGINX API Connectivity Manager](https://docs.nginx.com/nginx-management-suite/acm/)
