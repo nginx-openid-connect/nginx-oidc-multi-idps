@@ -1,4 +1,4 @@
-# How To Set Up NGINX ACM/DevPortal OIDC for Amazon Cognito Integration
+# How To Set Up NGINX ACM/DevPortal OIDC for multiple IdPs Integration (TBD)
 
 Take the following steps to set up NGINX ACM/DevPortal OIDC and test it for Amazon Cognito integration.
 
@@ -9,7 +9,7 @@ Take the following steps to set up NGINX ACM/DevPortal OIDC and test it for Amaz
   Ensure that you use **different application and callback/logout URLs** as the following example unlike that are already created to test your [containerized NGINX Plus](./02-NGINX-Plus-Setup.md).
 
   | Category              | Example                                         |
-  |-------------------------------------------------| ---------------------------------------------- |
+  | --------------------- | ----------------------------------------------- |
   | Application Name      | `nginx-devportal-app`                           |
   | Allowed Callback URLs | `https://nginx.devportal.cognito.test/_codexch` |
   | Allowed Logout URLs   | `https://nginx.devportal.cognito.test/_logout`  |
@@ -18,7 +18,7 @@ Take the following steps to set up NGINX ACM/DevPortal OIDC and test it for Amaz
 
   ```bash
   $ sudo vi /etc/hosts
-  127.0.0.1 nginx.devportal.cognito.test #Note : The provided IP address should be of the host where you installed the Dev Portal packages . 
+  127.0.0.1 nginx.devportal.cognito.test #Note : The provided IP address should be of the host where you installed the Dev Portal packages .
   # Also make sure your controller and Dev Portal /etc/hosts files have similar entries
   ```
 
@@ -246,9 +246,10 @@ Configure a Dev Portal by either referencing **NGINX Management Suite Docs** of 
   Enter your name and password which are registered in Amazon Cognito.
 
   ![](./img/signIn-devportal-cognito.png)
-  
-  When you login first time you will be prompted to update your password which you can update by entering below fields and clicking 'Send' button. 
-  
+
+  When you login first time you will be prompted to update your password which you can update by entering below fields and clicking 'Send' button.
+
   ![](./img/changePassword-devportal.png)
+
 - Try `Login` and `Logout`.
 - Test the above TWO steps after changing IdP (PKCE option) and updating Dev Portal via NGINX ACM API.

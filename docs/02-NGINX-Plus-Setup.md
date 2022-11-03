@@ -1,4 +1,4 @@
-# How To Set Up NGINX Plus OIDC for Amazon Cognito Integration
+# How To Set Up NGINX Plus OIDC for multiple IdPs Integration (TBD)
 
 Take the following steps to set up NGINX Plus as the OpenID Connect relying party that runs.
 
